@@ -4,7 +4,8 @@
 
 // export class using module.exports
 // new commit
-import Shape from "./Shape";
+//import Shape from "./Shape";
+const Shape = require("./Shape");
 export default class Circle extends Shape {
   constructor() {
     super();
